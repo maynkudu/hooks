@@ -1,6 +1,18 @@
 {
     "name": "@maynkudu/hooks",
-    "version": "0.0.1",
+    "version": "0.0.2",
+    "description": "A collection of hooks (as the name states).",
+    "keywords": [
+        "react",
+        "hooks",
+        "custom hooks",
+        "use",
+        "typescript"
+    ],
+    "author": {
+        "name": "maynkudu"
+    },
+    "license": "MIT",
     "main": "dist/index.cjs",
     "module": "dist/index.mjs",
     "types": "dist/index.d.ts",
