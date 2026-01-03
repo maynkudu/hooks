@@ -25,5 +25,12 @@
     },
     "peerDependencies": {
         "react": ">=18"
+    },
+    "dependencies": {
+        "effect": "^3.19.13"
+    },
+    "devDependencies": {
+        "@effect/language-service": "^0.63.2",
+        "@types/react": "^19.2.7"
     }
 }

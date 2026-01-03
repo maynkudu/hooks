@@ -1,14 +1,19 @@
 {
-  "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "jsx": "react-jsx",
-    "declaration": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "moduleResolution": "Node",
-    "outDir": "dist"
-  },
-  "include": ["src"]
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "jsx": "react-jsx",
+        "declaration": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "moduleResolution": "Node",
+        "outDir": "dist",
+        "plugins": [
+            {
+                "name": "@effect/language-service"
+            }
+        ]
+    },
+    "include": ["src"]
 }
