@@ -15,3 +15,6 @@ export * from "./useWindow";
 export * from "./useIdle";
 export * from "./usePageVisibility";
 export * from "./useVisible";
+export * from "./useUndo";
+export * from "./useScrollPosition";
+export * from "./useHover";
