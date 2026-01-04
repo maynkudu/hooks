@@ -1,6 +1,6 @@
 {
     "name": "@maynkudu/hooks",
-    "version": "0.6.0",
+    "version": "0.7.0",
     "description": "A collection of hooks (as the name states).",
     "keywords": [
         "react",
