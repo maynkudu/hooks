@@ -1,0 +1,1 @@
+import{_ as i,c as t,o as a,ae as e}from"./chunks/framework.CDjunVez.js";const c=JSON.parse('{"title":"@maynkudu/hooks","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),n={name:"index.md"};function l(h,s,r,p,k,o){return a(),t("div",null,[...s[0]||(s[0]=[e("",34)])])}const g=i(n,[["render",l]]);export{c as __pageData,g as default};
