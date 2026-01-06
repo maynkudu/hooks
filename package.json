@@ -1,38 +1,41 @@
 {
-    "name": "@maynkudu/hooks",
-    "version": "0.11.0",
-    "description": "A collection of hooks (as the name states).",
-    "keywords": [
-        "react",
-        "hooks",
-        "custom hooks",
-        "use",
-        "typescript"
-    ],
-    "author": {
-        "name": "maynkudu"
-    },
-    "license": "MIT",
-    "main": "dist/index.cjs",
-    "module": "dist/index.mjs",
-    "types": "dist/index.d.ts",
-    "files": [
-        "dist"
-    ],
-    "scripts": {
-        "build": "tsup",
-        "dev": "tsup --watch"
-    },
-    "peerDependencies": {
-        "react": ">=18"
-    },
-    "dependencies": {
-        "effect": "^3.19.13"
-    },
-    "devDependencies": {
-        "@effect/language-service": "^0.63.2",
-        "@types/react": "^19.2.7",
-        "tsup": "^8.5.1",
-        "typescript": "^5.9.3"
+  "name": "@maynkudu/hooks",
+  "version": "0.11.0",
+  "description": "A collection of hooks (as the name states).",
+  "keywords": [
+    "react",
+    "hooks",
+    "custom hooks",
+    "use",
+    "typescript"
+  ],
+  "author": {
+    "name": "maynkudu"
+  },
+  "sideEffects": false,
+  "license": "MIT",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": false
     }
+  },
+  "dependencies": {
+    "effect": "^3.19.13"
+  },
+  "devDependencies": {
+    "@effect/language-service": "^0.63.2",
+    "@types/react": "^19.2.7",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
 }
